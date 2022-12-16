@@ -4,7 +4,7 @@ namespace cedimat_api.Model
     {
         public int Id { get; set; }
         public string? Dia { get; set; }
-        public DateTime? Hora_ingreso { get; set; }
+        public DateTime? Hora_entrada { get; set; }
         public DateTime? Hora_salida { get; set; }
     }
 }
